@@ -35,7 +35,7 @@ import urllib2
 import boto
 import paramiko
 
-EC2_INSTANCE_TYPE = 't1.micro'
+EC2_INSTANCE_TYPE = 't2.micro'
 STATE_FILENAME = os.path.expanduser('~/.bees')
 
 
